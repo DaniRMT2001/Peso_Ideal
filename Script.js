@@ -6,8 +6,8 @@ function Datos_person() {
         peso: document.getElementById("peso").value,
     }
 
-    estatura_metro=persona.estatura_pies/3.2808
-    peso_ideal=persona.peso/estatura_metro
+    let estatura_metro=persona.estatura_pies/3.281
+    let peso_ideal=persona.peso/estatura_metro
 
     estatura_metro=estatura_metro.toFixed(2)
     peso_ideal=peso_ideal.toFixed(2)
